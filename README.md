@@ -53,11 +53,9 @@ The web application is fully hosted on an **AWS EC2 (Ubuntu Server)** instance w
 
 ## 📂 Repository Contents  
 
-- `task1/` → Scripts for DynamoDB table creation and data loading.  
-- `task2/` → Scripts for downloading/uploading images to S3.  
-- `webapp/` → Frontend (HTML, CSS, JS) + backend integration.  
-- `lambda_functions/` → Source code for AWS Lambda functions.  
-- `working_logs/` → Group contribution logs.  
+- `frontend/` → User interface (HTML, CSS, JavaScript) served by Apache2 on EC2.  
+- `backend/` → Authentication logic, Lambda functions, and API Gateway integration.  
+- `data_pipeline/` → Scripts for DynamoDB table creation, loading music data from JSON, and handling artist images with S3.  
 
 
 
